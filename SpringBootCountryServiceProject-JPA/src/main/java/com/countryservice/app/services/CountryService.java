@@ -53,11 +53,11 @@ public class CountryService {
 		return country;
 	}
 
-	public AddResponse deleteCountry(int id) {
-		countryRepository.deleteById(id);
+	public AddResponse deleteCountry(Country country) {
+		countryRepository.deleteById(country.getId());
 		AddResponse response = new AddResponse();
 		response.setMessage("Country Deleted!");
-		response.setId(id);
+		response.setId(country.getId());
 		return response;
 	}
 }

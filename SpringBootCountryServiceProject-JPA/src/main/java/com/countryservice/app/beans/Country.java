@@ -14,13 +14,13 @@ public class Country {
 
 	@Id // referring primary key
 	@Column(name = "id") // referring column which should exactly match with the name parameter "id".
-	int id;
+	private int id;
 	
 	@Column(name = "country_name") // referring column which should exactly match with the name parameter "country_name".
-	String countryName;
+	private String countryName;
 	
 	@Column(name= "capital") //// referring column which should exactly match with the name parameter "capital_name".
-	String countryCapital;
+	private String countryCapital;
 	
 	public Country() {
 		
