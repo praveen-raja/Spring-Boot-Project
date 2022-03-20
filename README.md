@@ -1,6 +1,6 @@
 # Spring-Boot-Project
 
-[SpringBootCountryServiceProject](SpringBootCountryServiceProject)
+[**SpringBootCountryServiceProject**](SpringBootCountryServiceProject)
 
 - This project have REST service implementation with HASHMAP(Without DB).
 
@@ -10,7 +10,7 @@ Directly `Run` the application using `Run as Spring Boot app`.
 
 *No additional configuration needed to run this application.*
 
-[SpringBootCountryServiceProject-JPA](SpringBootCountryServiceProject-JPA)
+[**SpringBootCountryServiceProject-JPA**](SpringBootCountryServiceProject-JPA)
 
 
 - This project have REST service implementation with Databse(MySQL DB).
