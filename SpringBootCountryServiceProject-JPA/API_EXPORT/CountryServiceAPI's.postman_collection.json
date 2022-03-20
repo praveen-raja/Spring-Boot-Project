@@ -112,7 +112,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"id\":4,\n    \"countryName\":\"Russia\",\n    \"countryCapital\":\"Moscow\"\n}",
+					"raw": "{\n    \"countryName\":\"Russia\",\n    \"countryCapital\":\"Moscow\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -120,14 +120,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/updatecountry",
+					"raw": "http://localhost:8080/updatecountry/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"updatecountry"
+						"updatecountry",
+						"1"
 					]
 				}
 			},
