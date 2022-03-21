@@ -13,7 +13,7 @@ Directly `Run` the application using `Run as Spring Boot app`.
 [SpringBootCountryServiceProject-JPA](SpringBootCountryServiceProject-JPA)
 
 
-- This project have REST service implementation with Databse(MySQL DB).
+- This project have REST service implementation with Database(MySQL DB).
 
 ### How to use ?
 
