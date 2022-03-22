@@ -1,0 +1,11 @@
+
+//Create Database
+CREATE Database mydb;
+
+//Create Table
+
+create table country(
+id INT PRIMARY KEY,
+country_name VARCHAR(255),
+capital VARCHAR(255)
+);
